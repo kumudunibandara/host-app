@@ -1,9 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from "react-redux";
 import Stack from '@mui/material/Stack';
-import NotificationsRoundedIcon from '@mui/icons-material/NotificationsRounded';
 import NavbarBreadcrumbs from './NavbarBreadcrumbs';
-import MenuButton from './MenuButton';
 import Switch from '@mui/material/Switch';
 import { LayoutState, toggleTheme } from '../../../redux/reducer';
 import { AppDispatch, RootState } from '../../../redux/store';
