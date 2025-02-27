@@ -15780,8 +15780,8 @@ function Header() {
 }
 
 const remotesMap = {
-'remoteApp':{url:'https://kumudunibandara.github.io/remote-users/remoteEntry.js',format:'esm',from:'vite'},
-  'remoteCharts':{url:'https://kumudunibandara.github.io/remote-charts/remoteEntry.js',format:'esm',from:'vite'}
+'remoteApp':{url:'https://kumudunibandara.github.io/remote-users/assets/remoteEntry.js',format:'esm',from:'vite'},
+  'remoteCharts':{url:'https://kumudunibandara.github.io/remote-charts/assets/remoteEntry.js',format:'esm',from:'vite'}
 };
                 const currentImports = {};
                 const loadJS = async (url, fn) => {
