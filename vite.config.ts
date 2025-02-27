@@ -12,8 +12,8 @@ export default defineConfig({
       name: "hostApp",
       filename: "remoteEntry.js",
       remotes: {
-        remoteApp: "/remote-users/assets/remoteEntry.js",
-        remoteCharts: "/remote-charts/assets/remoteEntry.js",
+        remoteApp: "https://kumudunibandara.github.io/remote-users/assets/remoteEntry.js",
+        remoteCharts: "https://kumudunibandara.github.io/remote-charts/assets/remoteEntry.js",
       },
       exposes: {
         "./UserTheme": "./src/redux/reducer",
