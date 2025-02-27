@@ -41,9 +41,6 @@ export default function Header() {
                     onChange={handleToggle}
                     inputProps={{ 'aria-label': 'Toggle theme' }}
                 />
-                <MenuButton showBadge aria-label="Open notifications">
-                    <NotificationsRoundedIcon />
-                </MenuButton>
 
             </Stack>
         </Stack>
