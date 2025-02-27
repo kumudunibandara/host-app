@@ -12,8 +12,8 @@ export default defineConfig({
       name: "hostApp",
       filename: "remoteEntry.js",
       remotes: {
-        remoteApp: "https://kumudunibandara.github.io/remote-users/remoteEntry.js",
-        remoteCharts: "https://kumudunibandara.github.io/remote-charts/remoteEntry.js",
+        remoteApp: "https://kumudunibandara.github.io/remote-users/assets/remoteEntry.js",
+        remoteCharts: "https://kumudunibandara.github.io/remote-charts/assets/remoteEntry.js",
       },
       exposes: {
         "./UserTheme": "./src/redux/reducer",
@@ -36,7 +36,7 @@ export default defineConfig({
     target: "esnext",
     minify: false,
     cssCodeSplit: false,
-    outDir: 'dist',
+    assetsDir: ''
   },
   server: {
     port: 3005,
