@@ -3,10 +3,10 @@ const currentImports = {};
       let moduleMap = {
 "./UserTheme":()=>{
       dynamicLoadingCss([], false, './UserTheme');
-      return __federation_import('/host-app/__federation_expose_UserTheme-BasTbMvr.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},
+      return __federation_import('/host-app/assets/__federation_expose_UserTheme-BasTbMvr.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},
 "./ErrorHandler":()=>{
       dynamicLoadingCss([], false, './ErrorHandler');
-      return __federation_import('/host-app/__federation_expose_ErrorHandler-B0F9TtOk.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
+      return __federation_import('/host-app/assets/__federation_expose_ErrorHandler-B0F9TtOk.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
       const seen = {};
       const dynamicLoadingCss = (cssFilePaths, dontAppendStylesToHead, exposeItemName) => {
         const metaUrl = import.meta.url;
@@ -17,7 +17,7 @@ const currentImports = {};
 
         const curUrl = metaUrl.substring(0, metaUrl.lastIndexOf('remoteEntry.js'));
         const base = '/host-app/';
-        '';
+        'assets';
 
         cssFilePaths.forEach(cssPath => {
          let href = '';
