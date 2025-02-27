@@ -5,7 +5,7 @@ import federation from "@originjs/vite-plugin-federation";
 //NOTE material ui icons issue: https://github.com/Leejjon/material-icons-bug
 
 export default defineConfig({
-  base: "/host-app/",
+  base: "/Heartpace/host-app/",
   plugins: [
     react(),
     federation({
